@@ -15,7 +15,7 @@ var css = "#id, .class { color:#000 }";
 extractor.extract(css);
 // => ['#id','.class']
 ```
-`extract` will return an array of all unique class names and ids found
+`extract` will return an array of all unique class names and ids
 
 ### Approach
 This module was designed to be lightweight, with no dependencies, using `RegExp` patterns to trim the input CSS content and capture the class names and ids.
@@ -27,7 +27,7 @@ $ npm install
 $ npm test
 ```
 
-The majority of existing test cases are meant to ensure compatibility with common and uncommon syntactic features and liberties available in CSS, including:
+The main focus of the test cases is to ensure compatibility with common and uncommon syntactic features and liberties available in CSS, including:
 
 * `@media` queries
 * attribute selectors: `#id[href='#id-like']`
