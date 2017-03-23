@@ -1,0 +1,13 @@
+/**/
+
+div[data-color="#fff"] {
+  color:black;
+}
+
+div[href="{}"] {}
+
+div[name=".class-like"] {}
+
+div[name="#id-like"] {}
+
+div#id[name="#id-like"] {}

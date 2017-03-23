@@ -1,0 +1,14 @@
+#my-id {
+  background:white;
+}
+
+.my-class{
+  /* some commented content */
+  font-size:42px
+}
+
+#my-id.my-class {
+  background:white;
+  font-size:42px
+
+}

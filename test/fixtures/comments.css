@@ -1,0 +1,21 @@
+#id1 /* comment */ {
+  background:white;
+}
+
+/* { */ #id2 {
+  background:white;
+}
+
+@media /* comment */ (min-width: 200px)
+and (orientation: /* comment */ landscape) /* comment */ {
+  #id3{
+    /* some commented content */
+    font-size:42px
+  }
+}
+
+/*
+#id2{
+  font-size:42px
+}
+*/

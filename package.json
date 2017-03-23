@@ -1,0 +1,26 @@
+{
+  "name": "css-extractor",
+  "version": "1.0.0",
+  "description": ":gem: extracts class names and ids from CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js --cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitstrider/css-extractor.git"
+  },
+  "keywords": [
+    "css",
+    "classes",
+    "class names",
+    "ids",
+    "regexp"
+  ],
+  "author": "Jason Yung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitstrider/css-extractor/issues"
+  },
+  "homepage": "https://github.com/bitstrider/css-extractor#readme"
+}

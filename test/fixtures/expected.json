@@ -1,0 +1,8 @@
+{
+  "basic": ["#my-id",".my-class"],
+  "complex": ["#id1","#id2","#id3","#id4",".class1",".class2",".class3",".class4"],
+  "media": ["#id1","#id2","#id3","#id4","#id6","#id5","#id7","#id8",".class1",".class2"],
+  "comments": ["#id1","#id3","#id2"],
+  "hex-color": [".white"],
+  "attribute-selectors": ["#id"]
+}

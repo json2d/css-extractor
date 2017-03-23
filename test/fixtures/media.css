@@ -1,0 +1,45 @@
+@media (min-width: 200px) {
+  #id1 {
+    background:white;
+  }
+
+  #id2 {
+    background:white;
+  }
+}
+
+@media(min-width:200px){#id3 {background:white;}#id4{background:white;}}
+
+@media      (min-width: 200px)   and (orientation: landscape)
+{
+  #id5 {
+    background:white;
+  }
+
+  #id6 {
+    background:white;
+  }
+}
+
+@media (min-width: 200px)
+and (orientation: landscape)
+and (height: 600px) {
+  .class1{
+    font-size:42px
+  }
+  .class2{
+    font-size:42px
+  }
+}
+
+
+@media (not (screen and (color))), print and (color) {
+  #id7 {
+    background:white;
+  }
+
+  #id8 {
+    background:white;
+  }
+
+}
